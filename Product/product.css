@@ -1,0 +1,45 @@
+.jumbotron{
+  background-color: #BAFCE7;
+  margin: 0px;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+.card{
+  min-height: 400px !important;
+}
+.lead{
+  font-family: 'Open Sans', sans-serif;
+}
+.btn-group{
+  align-items: baseline;
+}
+.btn{
+  background-color: white;
+  color: #028ae3;
+  border: none;
+  border-radius: 10px !important;
+}
+.btn:hover{
+  background-color: #028ae3;
+}
+.card-text{
+  font-family: 'Roboto', sans-serif;
+}
+.viewmore{
+  text-align: center;
+}
+a:hover{
+  text-decoration: none;
+}
