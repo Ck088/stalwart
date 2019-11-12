@@ -1,0 +1,333 @@
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* .navbar{
+    background: rgba(7, 71, 166, 1) !important;
+} */
+body{
+    font-family: 'Roboto', sans-serif;;
+}
+
+.brand-logo{
+    width: 170px;
+}
+.customNavbar{
+    background: transparent !important;
+}
+/* Curousel Style */
+.CK-carousel{
+    height: 90vh !important;
+    width: 100%;
+}
+
+.curousel-section{
+    padding: 0;
+    margin: 0;
+}
+
+.curousel-image{
+    height: 90vh;
+    float: right;
+    padding: 80px;
+}
+
+.nav-link{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 4px 10px !important;
+    margin: 5px;
+    font-family: 'Open sans';
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.6s;
+}
+
+.top-carousel-inner::before{
+
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-image: url('../assets/20215.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    filter: hue-rotate(240deg);
+
+}
+section{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.nav-link:hover{
+    background: linear-gradient(0.20turn, #0052cc, transparent);
+    color: rgb(250, 250, 250);
+    border-radius: 3px;
+}
+
+.heading{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-family: 'Raleway';
+}
+.navbar-brand{
+    padding: 0px 20px;
+}
+.heading-p{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'raleway'
+}
+.navbar-default{
+    transition:500ms ease;
+    background:transparent;
+  }
+  .navbar-default.scrolled{
+    background:rgb(250, 250, 250);
+  }
+  .navlink{
+      color: #000;
+  }
+
+  .CKnavlink:hover{
+        background: #0052cc;
+  }
+
+.heading-3{
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+.carousel-caption
+{
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    bottom: 150px !important;
+    left: 100px;
+    text-align: left !important;
+}
+
+/* Jumbotron Styles */
+.jumbotronSection{
+   padding: 0;
+   margin: 0;
+}
+
+
+.jumbotron-fluid{
+    margin: 0 !important;
+    background: linear-gradient(0.18turn,rgb(255, 255, 255) 50%, #0052aa 50%) !important;
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    padding: 30px !important;
+}
+/* Card Styles */
+.cardSection{
+ background: url('../assets/abstract-bg.png');
+ background-size: contain;
+ background-repeat: no-repeat;
+ padding: 20px 0px !important;
+}
+
+.card{
+    border: none;
+    background: transparent;
+    padding: 25px 5px;
+    margin: 10px;
+}
+.card-text{
+    text-align: center;
+}
+
+.CK-card:hover{
+    
+    cursor: pointer;
+    
+}
+
+.whatwedo{
+    margin: auto;
+    text-align: center;
+    margin: 20px 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'raleway';
+    color: #253858;
+}
+
+.card-img-top{
+    width: 45px !important;
+    margin: 3px;
+    padding: 5px;
+}
+
+.Ck-cardTitle{
+    color: #253858;
+    font-size: 22px;
+    font-weight: 600;
+}
+.learnmoreText{
+    color: #0052cc;
+    font-size: 14px;
+}
+
+.learnmoreText:hover ~ .learnmore-arrow{
+    margin-left: 8px;
+    transform: scaleY(1.2);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.6s;
+}
+.nterpriseone{
+    background: url('../assets/Measure-Track-Slide-3-Colour-Try-asd.png');
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 60vh;
+}
+
+.Nterpriselogo{
+    width: 50%;
+}
+
+.divider-line{
+    /* font-size: 20px; */
+    color: rgba(0, 0, 0, 0.7);
+    letter-spacing: 3px;
+    margin: 0px 7px;
+}
+.nterpriseFeature{
+    color: #253858;
+    display: flex;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+.check-icon {
+    margin: 10px;
+    color: rgb(0, 149, 112);
+    font-size: 30px;
+}
+.erpNexttoCheck {
+    margin-left: 54px;
+    color: #253858;
+}
+
+.CK-hr{
+    height: 4px;
+    width: 140px;
+    background: #0052cc;
+}
+.CKlead {
+    color: #253858;
+    margin-left: 54px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'raleway';
+    font-weight: bold;
+}
+/*-------------------
+--- FOOTER STYLE ------------------- */
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.clientSection{
+    padding: 64px;
+    height: 50vh;
+}
+#footer {
+    background: url('../assets/abstract-globe.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    background-color: rgba(9, 30, 66, 1) !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+.quick-links{
+    color: #ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+.clientTitle {
+    padding: 20px;
+    margin: 10px;
+    letter-spacing: 1px;
+}
+.clientLogo{
+    line-height: 100px;
+}

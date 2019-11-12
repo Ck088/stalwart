@@ -1,0 +1,67 @@
+html,body{
+    margin:0;
+    padding: 0;
+    width: 100%;
+}
+
+/* .btn.btn-secondary.dropdown-toggle{
+    align-content: flex-end;
+    
+    display: flex;
+    align-items: flex-end;
+} */
+.btn-group{
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    color:blue;
+    background-color: blue;
+    
+}
+
+.footer{
+    
+    display:flex;
+   
+    /* background-image: linear-gradient(); */
+    
+}
+.p-3.mb-2.bg-secondary.text-white{
+    display:flex;
+    justify-content: space-between;
+
+
+}
+.list-unstyled{
+    color:white;
+
+}
+.p-3.mb-2.bg-light.text-dar{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.image{
+    height:400px;
+    width:100%
+
+}
+#container{
+    background-color: rgb(9, 9, 75);
+}
+
+
+.img-fluid{
+    width:100%;
+}
+.contact-me{
+    display:flex;
+    justify-content: right;
+    size:12px;
+}
+.btn1{
+    background-color: #5d80b4;
+    size:30px;
+
+}
